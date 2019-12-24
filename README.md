@@ -1,4 +1,4 @@
-# hiker-make-manage
+# vue-demo
 
 ## Project setup
 ```
