@@ -1,0 +1,32 @@
+1.2 项目目录介绍
+1.2.1 build
+  •webpack 配置相关
+  •可以在此目录下的 webpack.base.conf 中的 resolve 中的 extentions 设置导入包时可以省略的文件的后缀名的类型
+  •可以在此目录下的 webpack.base.conf 中的 resolve 中的 alias 设置文件路径别名，比如 src 就可以简写为 @
+
+1.2.2 config
+  •生产开发环境配置的参数
+  •可以在此目录下的 index.js 中的 dev属性 port 修改端口号
+  •可以在此目录下的 index.js 中的 dev属性 autoOpenBrowser 设置是否自动打开浏览器，true则自动打开
+
+1.2.3 static
+  •static 中本来是用来放置第三方资源的，默认空文件是无法上传的，如果添加上 .gitkeep 则可以将空文件上传
+
+1.2.4 node_modules
+  •安装的第三方依赖
+
+1.2.5 babelrc
+  •将 es6 这种高级语法转为低级语法以便于浏览器去识别
+
+1.2.7 .editorconfig
+  •编辑器使用的设置
+
+1.2.8 .eslintignore
+  •代码风格检查忽略文件
+
+1.2.9 .eslintrc.js
+  •代码风格检查
+  •rules 里面可以自定义规则
+
+1.2.10 .gitignore
+  •使用 git 提交项目的时候忽略的一些文件
